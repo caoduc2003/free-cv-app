@@ -1,6 +1,9 @@
 import { toast } from "react-toastify";
 import { instance } from "../../utils/axios-connect";
 import {
+  GET_USER_FAILURE,
+  GET_USER_REQUEST,
+  GET_USER_SUCCESS,
   LOGIN_USER_FAILURE,
   LOGIN_USER_REQUEST,
   LOGIN_USER_SUCCESS,
@@ -34,5 +37,19 @@ export const loginUser = (reqData, navigate) => async (dispatch) => {
     dispatch({ type: LOGIN_USER_FAILURE, payload: error.message });
     toast.error("Invalid email or password");
     console.log("Error:", error.message);
+  }
+};
+
+export const getUser = (jwt) => async (dispatch) => {
+  dispatch({ type: GET_USER_REQUEST });
+
+  try {
+    let { data } = await api.get(`/api/user/profile`);
+
+    dispatch({ type: GET_USER_SUCCESS, payload: data });
+    console.log("get user success: ", data);
+  } catch (error) {
+    dispatch({ type: GET_USER_FAILURE, payload: error });
+    console.log("error: ", error);
   }
 };

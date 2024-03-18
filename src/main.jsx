@@ -10,6 +10,8 @@ import { MantineProvider } from "@mantine/core";
 import { NavigationProgress } from "@mantine/nprogress";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Provider } from "react-redux";
+import store from "./redux/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <MantineProvider defaultColorScheme="light">
@@ -25,6 +27,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       pauseOnHover
       theme="light"
     />
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </MantineProvider>
 );
