@@ -45,8 +45,5 @@ const action = async ({ request }) => {
   }
 };
 
-const loader = () => {
-  return;
-};
-export { action as LoginAction, loader as LoginLoader };
+export { action as LoginAction };
 export default Login;
