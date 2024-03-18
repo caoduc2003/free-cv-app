@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import { instance } from "../../utils/axios-connect";
+import axiosInstance from "../../utils/axios-connect";
 import {
   GET_USER_FAILURE,
   GET_USER_REQUEST,
@@ -15,7 +15,7 @@ export const loginUser = (reqData, navigate) => async (dispatch) => {
   try {
     const { email, password } = reqData;
 
-    const { data } = await instance.get(`/users`);
+    const { data } = await axiosInstance.get(`/users`);
 
     const user = data.find((user) => user.email === email);
 
@@ -40,11 +40,11 @@ export const loginUser = (reqData, navigate) => async (dispatch) => {
   }
 };
 
-export const getUser = (jwt) => async (dispatch) => {
+export const getUser = (userId) => async (dispatch) => {
   dispatch({ type: GET_USER_REQUEST });
 
   try {
-    let { data } = await api.get(`/api/user/profile`);
+    let { data } = await axiosInstance.get(`/users/${userId}`);
 
     dispatch({ type: GET_USER_SUCCESS, payload: data });
     console.log("get user success: ", data);

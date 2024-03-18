@@ -1,4 +1,7 @@
 import {
+  GET_USER_FAILURE,
+  GET_USER_REQUEST,
+  GET_USER_SUCCESS,
   LOGIN_USER_FAILURE,
   LOGIN_USER_REQUEST,
   LOGIN_USER_SUCCESS,
@@ -14,6 +17,7 @@ const initialState = {
 export const userReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOGIN_USER_REQUEST:
+    case GET_USER_REQUEST:
       return { ...state, isLoading: true, success: null };
 
     case LOGIN_USER_SUCCESS:
@@ -25,7 +29,16 @@ export const userReducer = (state = initialState, action) => {
         error: null,
       };
 
+    case GET_USER_SUCCESS:
+      return {
+        ...state,
+        isLoading: false,
+        user: action.payload,
+        success: "Get user successfully",
+      };
+
     case LOGIN_USER_FAILURE:
+    case GET_USER_FAILURE:
       return {
         ...state,
         isLoading: false,

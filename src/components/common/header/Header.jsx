@@ -5,12 +5,20 @@ import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./Header.module.css";
 import { Link, useLoaderData } from "react-router-dom";
 import React from "react";
-
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getUser } from "../../../redux/user/userAction";
 
 export default function Header() {
   const [opened, { toggle }] = useDisclosure(false);
   const loaderData = useLoaderData();
-  
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getUser(loaderData?.id));
+  }, [loaderData]);
+
+  const user = useSelector((state) => state.user);
 
   return (
     <header className={classes.header}>
