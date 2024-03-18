@@ -21,7 +21,7 @@ const action = async ({ request }) => {
   const { email, password } = formData;
   try {
     const res = (await axiosInstance.get("/users")).data;
-    
+
     const user = res.find(
       (user) => user.email === email && user.password === password
     );
@@ -45,8 +45,5 @@ const action = async ({ request }) => {
   }
 };
 
-const loader = () => {
-  return;
-};
-export { action as LoginAction, loader as LoginLoader };
+export { action as LoginAction };
 export default Login;
