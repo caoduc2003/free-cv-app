@@ -1,15 +1,18 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Root, { RootLoader } from "./pages/Root";
+import Root, { RootLoader, RootSearchBarAction } from "./pages/Root";
 import Login, { LoginAction } from "./pages/auth/Login";
 import React from "react";
 import { logout } from "./utils/logout";
 import GuestHomepage from "./pages/home/GuestHomepage";
 import UserHomepage from "./pages/home/UserHomepage";
+import JobDetails from "./pages/job/details/JobDetails";
+import SearchResult from "./pages/search/SearchResult";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     loader: RootLoader,
+    action: RootSearchBarAction,
     children: [
       {
         index: true,
@@ -23,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: "home",
         element: <UserHomepage />,
+      },
+      {
+        path: "search",
+        element: <SearchResult />,
+      },
+      {
+        path: "job/:id/details",
+        element: <JobDetails />,
       },
       {
         path: "logout",

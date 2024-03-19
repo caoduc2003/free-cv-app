@@ -31,5 +31,30 @@ const loader = async () => {
   }
 };
 
-export { loader as RootLoader };
+const action = async ({ request }) => {
+  const formData = Object.fromEntries(await request.formData());
+  const { keyword } = formData;
+  try {
+    const res1 = (await axiosInstance.get("/jobs")).data;
+    const res2 = (await axiosInstance.get("/industries")).data;
+    const filteredByKeyword = res1.filter((j) =>
+      j.title.toLowerCase().includes(keyword.toLowerCase())
+    );
+    const addedIndustryName = filteredByKeyword.map((j) => {
+      const industry = res2.find((i) => i.id === j.industryId);
+      return { ...j, industryName: industry.name };
+    });
+
+    return addedIndustryName;
+  } catch (error) {
+    if (error instanceof Error) {
+      return {
+        error: true,
+        msg: error.message,
+      };
+    }
+  }
+};
+
+export { loader as RootLoader, action as RootSearchBarAction };
 export default Root;

@@ -1,537 +1,595 @@
 {
   "users": [
     {
-    "id": 1,
-    "firstName": "Salim",
-    "lastName": "Koppke",
-    "email": "test@gmail.com",
-    "password": "123456789",
-    "createdAt": "6/17/2023",
-    "dob": "12/29/1991",
-    "username": "skoppke0",
-    "phoneNumber": "484-356-4795",
-    "avatar": "https://robohash.org/iddolorumvoluptatem.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 2,
-    "firstName": "Paloma",
-    "lastName": "Halfacree",
-    "email": "phalfacree1@storify.com",
-    "password": "iV5_!Q#3c",
-    "createdAt": "7/18/2023",
-    "dob": "12/21/2000",
-    "username": "phalfacree1",
-    "phoneNumber": "494-561-2923",
-    "avatar": "https://robohash.org/aspernaturconsequaturut.png?size=50x50&set=set1",
-    "gender": "Female"
-  }, 
-  {
-    "id": 3,
-    "firstName": "Antonia",
-    "lastName": "Bagnal",
-    "email": "abagnal2@ca.gov",
-    "password": "kH4_au\"#",
-    "createdAt": "8/12/2023",
-    "dob": "10/26/1991",
-    "username": "abagnal2",
-    "phoneNumber": "213-690-9125",
-    "avatar": "https://robohash.org/asperioresquisconsequatur.png?size=50x50&set=set1",
-    "gender": "Female"
-  }, 
-  {
-    "id": 4,
-    "firstName": "Bastian",
-    "lastName": "Vaudre",
-    "email": "bvaudre3@hc360.com",
-    "password": "eT8}.m@MgY",
-    "createdAt": "10/5/2023",
-    "dob": "8/28/2002",
-    "username": "bvaudre3",
-    "phoneNumber": "125-429-9944",
-    "avatar": "https://robohash.org/officiavoluptateset.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 5,
-    "firstName": "Patrizio",
-    "lastName": "Pharo",
-    "email": "ppharo4@barnesandnoble.com",
-    "password": "lS0*Dy{%",
-    "createdAt": "10/24/2023",
-    "dob": "3/30/1998",
-    "username": "ppharo4",
-    "phoneNumber": "421-593-8034",
-    "avatar": "https://robohash.org/similiquequoconsequuntur.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 6,
-    "firstName": "Gregory",
-    "lastName": "Wermerling",
-    "email": "gwermerling5@netlog.com",
-    "password": "bP5{S9r*6ln(yy",
-    "createdAt": "6/21/2023",
-    "dob": "10/26/1990",
-    "username": "gwermerling5",
-    "phoneNumber": "609-379-7056",
-    "avatar": "https://robohash.org/adipiscienimaspernatur.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 7,
-    "firstName": "Ring",
-    "lastName": "Eriksson",
-    "email": "reriksson6@upenn.edu",
-    "password": "vD2)&!a#r9(*WO5`",
-    "createdAt": "4/5/2023",
-    "dob": "1/6/2002",
-    "username": "reriksson6",
-    "phoneNumber": "286-411-8186",
-    "avatar": "https://robohash.org/veniammagnamrepellendus.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 8,
-    "firstName": "Karola",
-    "lastName": "Cromley",
-    "email": "kcromley7@va.gov",
-    "password": "jQ2!k`m#X.N!",
-    "createdAt": "7/7/2023",
-    "dob": "6/25/1993",
-    "username": "kcromley7",
-    "phoneNumber": "586-928-9589",
-    "avatar": "https://robohash.org/quiculpaofficia.png?size=50x50&set=set1",
-    "gender": "Female"
-  }, 
-  {
-    "id": 9,
-    "firstName": "Theodoric",
-    "lastName": "Mahood",
-    "email": "tmahood8@gmpg.org",
-    "password": "xI8!otPybX6&",
-    "createdAt": "4/24/2023",
-    "dob": "2/15/1995",
-    "username": "tmahood8",
-    "phoneNumber": "650-564-3038",
-    "avatar": "https://robohash.org/voluptatemdelectusquae.png?size=50x50&set=set1",
-    "gender": "Male"
-  }, 
-  {
-    "id": 10,
-    "firstName": "Antoni",
-    "lastName": "Vine",
-    "email": "avine9@ox.ac.uk",
-    "password": "yZ4,_P(jXlx\"naE",
-    "createdAt": "1/4/2024",
-    "dob": "4/13/1996",
-    "username": "avine9",
-    "phoneNumber": "782-759-9153",
-    "avatar": "https://robohash.org/autsolutaet.png?size=50x50&set=set1",
-    "gender": "Male"
-  }
+      "id": 1,
+      "firstName": "Salim",
+      "lastName": "Koppke",
+      "email": "test@gmail.com",
+      "password": "123456789",
+      "createdAt": "6/17/2023",
+      "dob": "12/29/1991",
+      "username": "skoppke0",
+      "phoneNumber": "484-356-4795",
+      "avatar": "https://robohash.org/iddolorumvoluptatem.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "firstName": "Paloma",
+      "lastName": "Halfacree",
+      "email": "phalfacree1@storify.com",
+      "password": "iV5_!Q#3c",
+      "createdAt": "7/18/2023",
+      "dob": "12/21/2000",
+      "username": "phalfacree1",
+      "phoneNumber": "494-561-2923",
+      "avatar": "https://robohash.org/aspernaturconsequaturut.png?size=50x50&set=set1",
+      "gender": "Female"
+    },
+    {
+      "id": 3,
+      "firstName": "Antonia",
+      "lastName": "Bagnal",
+      "email": "abagnal2@ca.gov",
+      "password": "kH4_au\"#",
+      "createdAt": "8/12/2023",
+      "dob": "10/26/1991",
+      "username": "abagnal2",
+      "phoneNumber": "213-690-9125",
+      "avatar": "https://robohash.org/asperioresquisconsequatur.png?size=50x50&set=set1",
+      "gender": "Female"
+    },
+    {
+      "id": 4,
+      "firstName": "Bastian",
+      "lastName": "Vaudre",
+      "email": "bvaudre3@hc360.com",
+      "password": "eT8}.m@MgY",
+      "createdAt": "10/5/2023",
+      "dob": "8/28/2002",
+      "username": "bvaudre3",
+      "phoneNumber": "125-429-9944",
+      "avatar": "https://robohash.org/officiavoluptateset.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "firstName": "Patrizio",
+      "lastName": "Pharo",
+      "email": "ppharo4@barnesandnoble.com",
+      "password": "lS0*Dy{%",
+      "createdAt": "10/24/2023",
+      "dob": "3/30/1998",
+      "username": "ppharo4",
+      "phoneNumber": "421-593-8034",
+      "avatar": "https://robohash.org/similiquequoconsequuntur.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 6,
+      "firstName": "Gregory",
+      "lastName": "Wermerling",
+      "email": "gwermerling5@netlog.com",
+      "password": "bP5{S9r*6ln(yy",
+      "createdAt": "6/21/2023",
+      "dob": "10/26/1990",
+      "username": "gwermerling5",
+      "phoneNumber": "609-379-7056",
+      "avatar": "https://robohash.org/adipiscienimaspernatur.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 7,
+      "firstName": "Ring",
+      "lastName": "Eriksson",
+      "email": "reriksson6@upenn.edu",
+      "password": "vD2)&!a#r9(*WO5`",
+      "createdAt": "4/5/2023",
+      "dob": "1/6/2002",
+      "username": "reriksson6",
+      "phoneNumber": "286-411-8186",
+      "avatar": "https://robohash.org/veniammagnamrepellendus.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 8,
+      "firstName": "Karola",
+      "lastName": "Cromley",
+      "email": "kcromley7@va.gov",
+      "password": "jQ2!k`m#X.N!",
+      "createdAt": "7/7/2023",
+      "dob": "6/25/1993",
+      "username": "kcromley7",
+      "phoneNumber": "586-928-9589",
+      "avatar": "https://robohash.org/quiculpaofficia.png?size=50x50&set=set1",
+      "gender": "Female"
+    },
+    {
+      "id": 9,
+      "firstName": "Theodoric",
+      "lastName": "Mahood",
+      "email": "tmahood8@gmpg.org",
+      "password": "xI8!otPybX6&",
+      "createdAt": "4/24/2023",
+      "dob": "2/15/1995",
+      "username": "tmahood8",
+      "phoneNumber": "650-564-3038",
+      "avatar": "https://robohash.org/voluptatemdelectusquae.png?size=50x50&set=set1",
+      "gender": "Male"
+    },
+    {
+      "id": 10,
+      "firstName": "Antoni",
+      "lastName": "Vine",
+      "email": "avine9@ox.ac.uk",
+      "password": "yZ4,_P(jXlx\"naE",
+      "createdAt": "1/4/2024",
+      "dob": "4/13/1996",
+      "username": "avine9",
+      "phoneNumber": "782-759-9153",
+      "avatar": "https://robohash.org/autsolutaet.png?size=50x50&set=set1",
+      "gender": "Male"
+    }
   ],
 
   "jobs": [
     {
-    "id": 1,
-    "title": "Assistant Media Planner",
-    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
-    "industryId": 6,
-    "gender": "Female",
-    "location": "Suite 72",
-    "careerId": 8,
-    "salary": 7645,
-    "experience": 4,
-    "dueDate": "3/20/2024"
-  }, 
-  {
-    "id": 2,
-    "title": "Structural Engineer",
-    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
-    "industryId": 6,
-    "gender": "Female",
-    "location": "PO Box 98645",
-    "careerId": 7,
-    "salary": 2193,
-    "experience": 4,
-    "dueDate": "3/29/2024"
-  }, 
-  {
-    "id": 3,
-    "title": "Professor",
-    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    "industryId": 10,
-    "gender": "Female",
-    "location": "Suite 97",
-    "careerId": 5,
-    "salary": 8733,
-    "experience": 4,
-    "dueDate": "3/5/2024"
-  }, 
-  {
-    "id": 4,
-    "title": "VP Quality Control",
-    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
-    "industryId": 1,
-    "gender": "Bigender",
-    "location": "Suite 91",
-    "careerId": 6,
-    "salary": 7006,
-    "experience": 1,
-    "dueDate": "3/21/2024"
-  }, 
-  {
-    "id": 5,
-    "title": "VP Product Management",
-    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-    "industryId": 2,
-    "gender": "Female",
-    "location": "3rd Floor",
-    "careerId": 5,
-    "salary": 7437,
-    "experience": 1,
-    "dueDate": "3/27/2024"
-  }, 
-  {
-    "id": 6,
-    "title": "Senior Developer",
-    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
-    "industryId": 1,
-    "gender": "Male",
-    "location": "2nd Floor",
-    "careerId": 8,
-    "salary": 3580,
-    "experience": 1,
-    "dueDate": "3/22/2024"
-  }, 
-  {
-    "id": 7,
-    "title": "Account Executive",
-    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-    "industryId": 8,
-    "gender": "Male",
-    "location": "Room 884",
-    "careerId": 10,
-    "salary": 5168,
-    "experience": 1,
-    "dueDate": "3/7/2024"
-  }, 
-  {
-    "id": 8,
-    "title": "Quality Control Specialist",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-    "industryId": 1,
-    "gender": "Female",
-    "location": "Apt 1199",
-    "careerId": 10,
-    "salary": 4567,
-    "experience": 1,
-    "dueDate": "3/26/2024"
-  }, 
-  {
-    "id": 9,
-    "title": "VP Accounting",
-    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-    "industryId": 2,
-    "gender": "Female",
-    "location": "Apt 136",
-    "careerId": 4,
-    "salary": 8713,
-    "experience": 3,
-    "dueDate": "3/19/2024"
-  }, 
-  {
-    "id": 10,
-    "title": "Mechanical Systems Engineer",
-    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-    "industryId": 7,
-    "gender": "Female",
-    "location": "Apt 249",
-    "careerId": 6,
-    "salary": 5925,
-    "experience": 0,
-    "dueDate": "3/22/2024"
-  }
+      "id": 1,
+      "title": "Assistant Media Planner",
+      "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "industryId": 6,
+      "gender": "Female",
+      "location": "Suite 72",
+      "careerId": 8,
+      "salary": 7645,
+      "experience": 4,
+      "dueDate": "3/20/2024"
+    },
+    {
+      "id": 2,
+      "title": "Structural Engineer",
+      "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "industryId": 6,
+      "gender": "Female",
+      "location": "PO Box 98645",
+      "careerId": 7,
+      "salary": 2193,
+      "experience": 4,
+      "dueDate": "3/29/2024"
+    },
+    {
+      "id": 3,
+      "title": "Professor",
+      "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "industryId": 10,
+      "gender": "Female",
+      "location": "Suite 97",
+      "careerId": 5,
+      "salary": 8733,
+      "experience": 4,
+      "dueDate": "3/5/2024"
+    },
+    {
+      "id": 4,
+      "title": "VP Quality Control",
+      "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "industryId": 1,
+      "gender": "Bigender",
+      "location": "Suite 91",
+      "careerId": 6,
+      "salary": 7006,
+      "experience": 1,
+      "dueDate": "3/21/2024"
+    },
+    {
+      "id": 5,
+      "title": "VP Product Management",
+      "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "industryId": 2,
+      "gender": "Female",
+      "location": "3rd Floor",
+      "careerId": 5,
+      "salary": 7437,
+      "experience": 1,
+      "dueDate": "3/27/2024"
+    },
+    {
+      "id": 6,
+      "title": "Senior Developer",
+      "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+      "industryId": 1,
+      "gender": "Male",
+      "location": "2nd Floor",
+      "careerId": 8,
+      "salary": 3580,
+      "experience": 1,
+      "dueDate": "3/22/2024"
+    },
+    {
+      "id": 7,
+      "title": "Account Executive",
+      "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "industryId": 8,
+      "gender": "Male",
+      "location": "Room 884",
+      "careerId": 10,
+      "salary": 5168,
+      "experience": 1,
+      "dueDate": "3/7/2024"
+    },
+    {
+      "id": 8,
+      "title": "Quality Control Specialist",
+      "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+      "industryId": 1,
+      "gender": "Female",
+      "location": "Apt 1199",
+      "careerId": 10,
+      "salary": 4567,
+      "experience": 1,
+      "dueDate": "3/26/2024"
+    },
+    {
+      "id": 9,
+      "title": "VP Accounting",
+      "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+      "industryId": 2,
+      "gender": "Female",
+      "location": "Apt 136",
+      "careerId": 4,
+      "salary": 8713,
+      "experience": 3,
+      "dueDate": "3/19/2024"
+    },
+    {
+      "id": 10,
+      "title": "Mechanical Systems Engineer",
+      "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+      "industryId": 7,
+      "gender": "Female",
+      "location": "Apt 249",
+      "careerId": 6,
+      "salary": 5925,
+      "experience": 0,
+      "dueDate": "3/22/2024"
+    }
   ],
 
   "careers": [
     {
-    "id": 1,
-    "name": "Public Utilities"
-  }, {
-    "id": 2,
-    "name": "Finance"
-  }, {
-    "id": 3,
-    "name": "Capital Goods"
-  }, {
-    "id": 4,
-    "name": "Finance"
-  }, {
-    "id": 5,
-    "name": "n/a"
-  }, {
-    "id": 6,
-    "name": "Health Care"
-  }, {
-    "id": 7,
-    "name": "Consumer Services"
-  }, {
-    "id": 8,
-    "name": "Public Utilities"
-  }, {
-    "id": 9,
-    "name": "Health Care"
-  }, {
-    "id": 10,
-    "name": "n/a"
-  }
+      "id": 1,
+      "name": "Public Utilities"
+    },
+    {
+      "id": 2,
+      "name": "Finance"
+    },
+    {
+      "id": 3,
+      "name": "Capital Goods"
+    },
+    {
+      "id": 4,
+      "name": "Finance"
+    },
+    {
+      "id": 5,
+      "name": "n/a"
+    },
+    {
+      "id": 6,
+      "name": "Health Care"
+    },
+    {
+      "id": 7,
+      "name": "Consumer Services"
+    },
+    {
+      "id": 8,
+      "name": "Public Utilities"
+    },
+    {
+      "id": 9,
+      "name": "Health Care"
+    },
+    {
+      "id": 10,
+      "name": "n/a"
+    }
   ],
 
   "industries": [
     {
-    "id": 1,
-    "name": "Mydo",
-    "location": "17th Floor",
-    "totalEmployees": 829,
-    "image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 2,
-    "name": "Twimbo",
-    "location": "Room 1706",
-    "totalEmployees": 770,
-    "image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 3,
-    "name": "Youbridge",
-    "location": "Suite 27",
-    "totalEmployees": 58,
-    "image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 4,
-    "name": "Realcube",
-    "location": "Suite 89",
-    "totalEmployees": 989,
-    "image": "http://dummyimage.com/241x100.png/dddddd/000000"
-  }, {
-    "id": 5,
-    "name": "Zoomzone",
-    "location": "3rd Floor",
-    "totalEmployees": 98,
-    "image": "http://dummyimage.com/157x100.png/dddddd/000000"
-  }, {
-    "id": 6,
-    "name": "Kwinu",
-    "location": "Apt 1917",
-    "totalEmployees": 915,
-    "image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
-  }, {
-    "id": 7,
-    "name": "Skinder",
-    "location": "18th Floor",
-    "totalEmployees": 528,
-    "image": "http://dummyimage.com/138x100.png/dddddd/000000"
-  }, {
-    "id": 8,
-    "name": "Trudoo",
-    "location": "12th Floor",
-    "totalEmployees": 715,
-    "image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
-  }, {
-    "id": 9,
-    "name": "Jetwire",
-    "location": "Suite 3",
-    "totalEmployees": 428,
-    "image": "http://dummyimage.com/164x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 10,
-    "name": "Bubblebox",
-    "location": "14th Floor",
-    "totalEmployees": 379,
-    "image": "http://dummyimage.com/207x100.png/dddddd/000000"
-  }
+      "id": 1,
+      "name": "Mydo",
+      "location": "17th Floor",
+      "totalEmployees": 829,
+      "image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Twimbo",
+      "location": "Room 1706",
+      "totalEmployees": 770,
+      "image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 3,
+      "name": "Youbridge",
+      "location": "Suite 27",
+      "totalEmployees": 58,
+      "image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 4,
+      "name": "Realcube",
+      "location": "Suite 89",
+      "totalEmployees": 989,
+      "image": "http://dummyimage.com/241x100.png/dddddd/000000"
+    },
+    {
+      "id": 5,
+      "name": "Zoomzone",
+      "location": "3rd Floor",
+      "totalEmployees": 98,
+      "image": "http://dummyimage.com/157x100.png/dddddd/000000"
+    },
+    {
+      "id": 6,
+      "name": "Kwinu",
+      "location": "Apt 1917",
+      "totalEmployees": 915,
+      "image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 7,
+      "name": "Skinder",
+      "location": "18th Floor",
+      "totalEmployees": 528,
+      "image": "http://dummyimage.com/138x100.png/dddddd/000000"
+    },
+    {
+      "id": 8,
+      "name": "Trudoo",
+      "location": "12th Floor",
+      "totalEmployees": 715,
+      "image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 9,
+      "name": "Jetwire",
+      "location": "Suite 3",
+      "totalEmployees": 428,
+      "image": "http://dummyimage.com/164x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Bubblebox",
+      "location": "14th Floor",
+      "totalEmployees": 379,
+      "image": "http://dummyimage.com/207x100.png/dddddd/000000"
+    }
   ],
 
   "resumes": [
     {
-    "id": 1,
-    "userId": 5,
-    "createdAt": "3/30/2024",
-    "statusId": 3
-  }, {
-    "id": 2,
-    "userId": 5,
-    "createdAt": "3/21/2024",
-    "statusId": 2
-  }, {
-    "id": 3,
-    "userId": 4,
-    "createdAt": "3/20/2024",
-    "statusId": 4
-  }, {
-    "id": 4,
-    "userId": 5,
-    "createdAt": "3/19/2024",
-    "statusId": 7
-  }, {
-    "id": 5,
-    "userId": 1,
-    "createdAt": "3/18/2024",
-    "statusId": 1
-  }, {
-    "id": 6,
-    "userId": 6,
-    "createdAt": "3/26/2024",
-    "statusId": 10
-  }, {
-    "id": 7,
-    "userId": 4,
-    "createdAt": "3/27/2024",
-    "statusId": 9
-  }, {
-    "id": 8,
-    "userId": 4,
-    "createdAt": "3/19/2024",
-    "statusId": 7
-  }, {
-    "id": 9,
-    "userId": 10,
-    "createdAt": "3/22/2024",
-    "statusId": 10
-  }, {
-    "id": 10,
-    "userId": 8,
-    "createdAt": "3/26/2024",
-    "statusId": 3
-  }
+      "id": 1,
+      "userId": 5,
+      "createdAt": "3/30/2024",
+      "statusId": 3
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "createdAt": "3/21/2024",
+      "statusId": 2
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "createdAt": "3/20/2024",
+      "statusId": 4
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "createdAt": "3/19/2024",
+      "statusId": 7
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "createdAt": "3/18/2024",
+      "statusId": 1
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "createdAt": "3/26/2024",
+      "statusId": 10
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "createdAt": "3/27/2024",
+      "statusId": 9
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "createdAt": "3/19/2024",
+      "statusId": 7
+    },
+    {
+      "id": 9,
+      "userId": 10,
+      "createdAt": "3/22/2024",
+      "statusId": 10
+    },
+    {
+      "id": 10,
+      "userId": 8,
+      "createdAt": "3/26/2024",
+      "statusId": 3
+    }
   ],
 
-  "savedJobs": [{
-    "jobId": 5,
-    "userId": 2,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 2,
-    "userId": 3,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 1,
-    "userId": 9,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 7,
-    "userId": 5,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 10,
-    "userId": 5,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 8,
-    "userId": 2,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 6,
-    "userId": 2,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 4,
-    "userId": 3,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 5,
-    "userId": 1,
-    "createdAt": "3/18/2024"
-  }, {
-    "jobId": 2,
-    "userId": 7,
-    "createdAt": "3/18/2024"
-  }],
+  "savedJobs": [
+    {
+      "jobId": 5,
+      "userId": 2,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 2,
+      "userId": 3,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 1,
+      "userId": 9,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 7,
+      "userId": 5,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 10,
+      "userId": 5,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 8,
+      "userId": 2,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 6,
+      "userId": 2,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 4,
+      "userId": 3,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 5,
+      "userId": 1,
+      "createdAt": "3/18/2024"
+    },
+    {
+      "jobId": 2,
+      "userId": 7,
+      "createdAt": "3/18/2024"
+    }
+  ],
 
   "jobAplications": [
     {
-    "jobId": 3,
-    "userId": 6,
-    "createdAt": "3/18/2024",
-    "statusId": 5
-  }, {
-    "jobId": 7,
-    "userId": 4,
-    "createdAt": "3/18/2024",
-    "statusId": 2
-  }, {
-    "jobId": 7,
-    "userId": 4,
-    "createdAt": "3/18/2024",
-    "statusId": 4
-  }, {
-    "jobId": 2,
-    "userId": 3,
-    "createdAt": "3/18/2024",
-    "statusId": 9
-  }, {
-    "jobId": 1,
-    "userId": 3,
-    "createdAt": "3/18/2024",
-    "statusId": 1
-  }, {
-    "jobId": 6,
-    "userId": 3,
-    "createdAt": "3/18/2024",
-    "statusId": 10
-  }, {
-    "jobId": 3,
-    "userId": 7,
-    "createdAt": "3/18/2024",
-    "statusId": 3
-  }, {
-    "jobId": 2,
-    "userId": 2,
-    "createdAt": "3/18/2024",
-    "statusId": 7
-  }, {
-    "jobId": 7,
-    "userId": 6,
-    "createdAt": "3/18/2024",
-    "statusId": 3
-  }, {
-    "jobId": 3,
-    "userId": 10,
-    "createdAt": "3/18/2024",
-    "statusId": 1
-  }
+      "jobId": 3,
+      "userId": 6,
+      "createdAt": "3/18/2024",
+      "statusId": 5
+    },
+    {
+      "jobId": 7,
+      "userId": 4,
+      "createdAt": "3/18/2024",
+      "statusId": 2
+    },
+    {
+      "jobId": 7,
+      "userId": 4,
+      "createdAt": "3/18/2024",
+      "statusId": 4
+    },
+    {
+      "jobId": 2,
+      "userId": 3,
+      "createdAt": "3/18/2024",
+      "statusId": 9
+    },
+    {
+      "jobId": 1,
+      "userId": 3,
+      "createdAt": "3/18/2024",
+      "statusId": 1
+    },
+    {
+      "jobId": 6,
+      "userId": 3,
+      "createdAt": "3/18/2024",
+      "statusId": 10
+    },
+    {
+      "jobId": 3,
+      "userId": 7,
+      "createdAt": "3/18/2024",
+      "statusId": 3
+    },
+    {
+      "jobId": 2,
+      "userId": 2,
+      "createdAt": "3/18/2024",
+      "statusId": 7
+    },
+    {
+      "jobId": 7,
+      "userId": 6,
+      "createdAt": "3/18/2024",
+      "statusId": 3
+    },
+    {
+      "jobId": 3,
+      "userId": 10,
+      "createdAt": "3/18/2024",
+      "statusId": 1
+    }
   ],
 
-  "applicationStatus": [{
-    "id": 1,
-    "name": "non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac"
-  }, {
-    "id": 2,
-    "name": "aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo"
-  }, {
-    "id": 3,
-    "name": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat"
-  }, {
-    "id": 4,
-    "name": "quis orci eget orci vehicula condimentum curabitur in libero ut"
-  }, {
-    "id": 5,
-    "name": "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam"
-  }, {
-    "id": 6,
-    "name": "integer ac neque duis bibendum morbi non quam nec dui"
-  }, {
-    "id": 7,
-    "name": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt"
-  }, {
-    "id": 8,
-    "name": "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus"
-  }, {
-    "id": 9,
-    "name": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque"
-  }, {
-    "id": 10,
-    "name": "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices"
-  }]
+  "applicationStatus": [
+    {
+      "id": 1,
+      "name": "non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac"
+    },
+    {
+      "id": 2,
+      "name": "aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo"
+    },
+    {
+      "id": 3,
+      "name": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat"
+    },
+    {
+      "id": 4,
+      "name": "quis orci eget orci vehicula condimentum curabitur in libero ut"
+    },
+    {
+      "id": 5,
+      "name": "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam"
+    },
+    {
+      "id": 6,
+      "name": "integer ac neque duis bibendum morbi non quam nec dui"
+    },
+    {
+      "id": 7,
+      "name": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt"
+    },
+    {
+      "id": 8,
+      "name": "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus"
+    },
+    {
+      "id": 9,
+      "name": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque"
+    },
+    {
+      "id": 10,
+      "name": "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices"
+    }
+  ]
 }
