@@ -1,6 +1,5 @@
 import { Avatar, Group, Menu, Text, UnstyledButton } from "@mantine/core";
 import { IconLogout, IconUserCircle } from "@tabler/icons-react";
-import React from "react";
 import { useSubmit } from "react-router-dom";
 
 const UserButton = ({ user }) => {

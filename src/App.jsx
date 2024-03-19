@@ -1,11 +1,10 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root, { RootLoader, RootSearchBarAction } from "./pages/Root";
 import Login, { LoginAction } from "./pages/auth/Login";
-import React from "react";
 import { logout } from "./utils/logout";
 import GuestHomepage from "./pages/home/GuestHomepage";
 import UserHomepage from "./pages/home/UserHomepage";
-import JobDetails from "./pages/job/details/JobDetails";
+import JobDetails, { JobDetailsLoader } from "./pages/job/details/JobDetails";
 import SearchResult from "./pages/search/SearchResult";
 const router = createBrowserRouter([
   {
@@ -34,6 +33,7 @@ const router = createBrowserRouter([
       {
         path: "job/:id/details",
         element: <JobDetails />,
+        loader: JobDetailsLoader,
       },
       {
         path: "logout",
