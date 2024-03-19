@@ -6,6 +6,8 @@ import GuestHomepage from "./pages/home/GuestHomepage";
 import UserHomepage from "./pages/home/UserHomepage";
 import JobDetails, { JobDetailsLoader } from "./pages/job/details/JobDetails";
 import SearchResult from "./pages/search/SearchResult";
+import CompanyDetails from "./pages/company/CompanyDetails";
+import ListCompanies from "./components/company/ListCompanies";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
         path: "job/:id/details",
         element: <JobDetails />,
         loader: JobDetailsLoader,
+      },
+      {
+        path: "company",
+        element: <ListCompanies />,
+      },
+      {
+        path: "company/:id/details",
+        element: <CompanyDetails />,
       },
       {
         path: "logout",

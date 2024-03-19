@@ -321,73 +321,123 @@
   "industries": [
     {
       "id": 1,
-      "name": "Mydo",
-      "location": "17th Floor",
-      "totalEmployees": 829,
-      "image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff"
+      "name": "FPT Telecom",
+      "location": "Tầng 2, tòa nhà FPT, Phố Duy Tân, Cầu Giấy, Hà Nội",
+      "totalEmployees": 5000,
+      "image": "https://static.topcv.vn/company_covers/cong-ty-co-phan-vien-thong-fpt-31f41267723f53b5a2973c4446b2151d-5fc9dbf2594f4.jpg",
+      "logo": "https://cdn-new.topcv.vn/unsafe/140x/https://static.topcv.vn/company_logos/cong-ty-co-phan-vien-thong-fpt-5d5f5980e317c.jpg",
+      "description": "FPT Telecom is a leading telecommunications company in Vietnam.",
+      "locationUrl": "https://maps.google.com/?q=Tầng 2, tòa nhà FPT, Phố Duy Tân, Cầu Giấy, Hà Nội",
+      "totalFollowers": 10000,
+      "website": "https://fptjobs.com"
     },
     {
       "id": 2,
       "name": "Twimbo",
       "location": "Room 1706",
       "totalEmployees": 770,
-      "image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+      "image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
+      "logo": "https://example.com/twimbo_logo.png",
+      "description": "Twimbo specializes in social media management solutions.",
+      "locationUrl": "https://maps.google.com/?q=Room 1706",
+      "totalFollowers": 5000,
+      "website": "https://twimbo.com"
     },
     {
       "id": 3,
       "name": "Youbridge",
       "location": "Suite 27",
       "totalEmployees": 58,
-      "image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
+      "image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
+      "logo": "https://example.com/youbridge_logo.png",
+      "description": "Youbridge offers cutting-edge bridge engineering services.",
+      "locationUrl": "https://maps.google.com/?q=Suite 27",
+      "totalFollowers": 2000,
+      "website": "https://youbridge.com"
     },
     {
       "id": 4,
       "name": "Realcube",
       "location": "Suite 89",
       "totalEmployees": 989,
-      "image": "http://dummyimage.com/241x100.png/dddddd/000000"
+      "image": "http://dummyimage.com/241x100.png/dddddd/000000",
+      "logo": "https://example.com/realcube_logo.png",
+      "description": "Realcube provides virtual reality solutions for various industries.",
+      "locationUrl": "https://maps.google.com/?q=Suite 89",
+      "totalFollowers": 8000,
+      "website": "https://realcube.com"
     },
     {
       "id": 5,
       "name": "Zoomzone",
       "location": "3rd Floor",
       "totalEmployees": 98,
-      "image": "http://dummyimage.com/157x100.png/dddddd/000000"
+      "image": "http://dummyimage.com/157x100.png/dddddd/000000",
+      "logo": "https://example.com/zoomzone_logo.png",
+      "description": "Zoomzone is a leading supplier of optical zoom lenses.",
+      "locationUrl": "https://maps.google.com/?q=3rd Floor",
+      "totalFollowers": 3000,
+      "website": "https://zoomzone.com"
     },
     {
       "id": 6,
       "name": "Kwinu",
       "location": "Apt 1917",
       "totalEmployees": 915,
-      "image": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+      "image": "http://dummyimage.com/182x100.png/cc0000/ffffff",
+      "logo": "https://example.com/kwinu_logo.png",
+      "description": "Kwinu offers innovative solutions for smart home automation.",
+      "locationUrl": "https://maps.google.com/?q=Apt 1917",
+      "totalFollowers": 6000,
+      "website": "https://kwinu.com"
     },
     {
       "id": 7,
       "name": "Skinder",
       "location": "18th Floor",
       "totalEmployees": 528,
-      "image": "http://dummyimage.com/138x100.png/dddddd/000000"
+      "image": "http://dummyimage.com/138x100.png/dddddd/000000",
+      "logo": "https://example.com/skinder_logo.png",
+      "description": "Skinder is a leading skincare product manufacturer.",
+      "locationUrl": "https://maps.google.com/?q=18th Floor",
+      "totalFollowers": 4000,
+      "website": "https://skinder.com"
     },
     {
       "id": 8,
       "name": "Trudoo",
       "location": "12th Floor",
       "totalEmployees": 715,
-      "image": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+      "image": "http://dummyimage.com/188x100.png/cc0000/ffffff",
+      "logo": "https://example.com/trudoo_logo.png",
+      "description": "Trudoo specializes in data analytics and business intelligence solutions.",
+      "locationUrl": "https://maps.google.com/?q=12th Floor",
+      "totalFollowers": 7000,
+      "website": "https://trudoo.com"
     },
     {
       "id": 9,
       "name": "Jetwire",
       "location": "Suite 3",
       "totalEmployees": 428,
-      "image": "http://dummyimage.com/164x100.png/5fa2dd/ffffff"
+      "image": "http://dummyimage.com/164x100.png/5fa2dd/ffffff",
+      "logo": "https://example.com/jetwire_logo.png",
+      "description": "Jetwire provides fast and reliable internet services.",
+      "locationUrl": "https://maps.google.com/?q=Suite 3",
+      "totalFollowers": 2500,
+      "website": "https://jetwire.com"
     },
     {
       "id": 10,
       "name": "Bubblebox",
       "location": "14th Floor",
       "totalEmployees": 379,
-      "image": "http://dummyimage.com/207x100.png/dddddd/000000"
+      "image": "http://dummyimage.com/207x100.png/dddddd/000000",
+      "logo": "https://example.com/bubblebox_logo.png",
+      "description": "Bubblebox manufactures eco-friendly packaging solutions.",
+      "locationUrl": "https://maps.google.com/?q=14th Floor",
+      "totalFollowers": 3500,
+      "website": "https://bubblebox.com"
     }
   ],
 
