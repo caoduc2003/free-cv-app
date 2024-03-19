@@ -20,23 +20,15 @@ import {
   IconSearch,
 } from "@tabler/icons-react";
 import classes from "./Header.module.css";
-import {
-  Form,
-  Link,
-  useFetcher,
-  useLoaderData,
-  useNavigate,
-  useNavigation,
-  useSubmit,
-} from "react-router-dom";
-import React, { useRef } from "react";
-import { useEffect } from "react";
+import { Form, Link, useLoaderData, useNavigate } from "react-router-dom";
+import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { getUser } from "../../../redux/user/userAction";
 import GuestButton from "./buttons/GuestButton";
 import UserButton from "./buttons/UserButton";
 import { isNotEmpty, useForm } from "@mantine/form";
 import axiosInstance from "../../../utils/axios-connect";
+import ThemeSwitch from "./buttons/ThemeSwitch";
 
 export default function Header() {
   const [opened, { toggle }] = useDisclosure(false);
@@ -58,7 +50,10 @@ export default function Header() {
       const res1 = (await axiosInstance.get("/jobs")).data;
       const res2 = (await axiosInstance.get("/industries")).data;
       const addedIndustryName = res1.map((j) => {
-        const industry = res2.find((i) => i.id === j.industryId);
+        const industry = res2.find(
+          (i) => Number(i.id) === Number(j.industryId)
+        );
+        console.log(industry);
         return { ...j, industryName: industry.name };
       });
 
@@ -163,7 +158,10 @@ export default function Header() {
             {...form.getInputProps("keyword")}
           />
         </Form>
-        {loaderData ? <UserButton user={loaderData} /> : <GuestButton />}
+        <Group>
+          <ThemeSwitch />
+          {loaderData ? <UserButton user={loaderData} /> : <GuestButton />}
+        </Group>
       </Group>
     </header>
   );

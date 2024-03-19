@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Title, Text, Button } from "@mantine/core";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";

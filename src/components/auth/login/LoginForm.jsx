@@ -12,7 +12,7 @@ import {
 } from "@mantine/core";
 import classes from "./LoginForm.module.css";
 import { useForm, zodResolver } from "@mantine/form";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { z } from "zod";
 import {
   Form,
