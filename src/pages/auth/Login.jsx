@@ -1,18 +1,10 @@
 import React, { useEffect } from "react";
 import LoginForm from "../../components/auth/login/LoginForm";
-import { useActionData } from "react-router-dom";
+import { redirect, useActionData } from "react-router-dom";
 import { toast } from "react-toastify";
 import axiosInstance from "../../utils/axios-connect";
 
 const Login = () => {
-  const actionData = useActionData();
-  useEffect(() => {
-    if (actionData?.error) {
-      toast.error(actionData?.msg);
-    } else if (!actionData?.error) {
-      toast.success(actionData?.msg);
-    }
-  }, [actionData]);
   return <LoginForm />;
 };
 
@@ -28,10 +20,7 @@ const action = async ({ request }) => {
 
     if (user) {
       localStorage.setItem("user", JSON.stringify(user));
-      return {
-        error: false,
-        msg: "Login successful",
-      };
+      return redirect("/home");
     } else {
       throw new Error("Invalid email or password");
     }

@@ -12,15 +12,22 @@ import {
 } from "@mantine/core";
 import classes from "./LoginForm.module.css";
 import { useForm, zodResolver } from "@mantine/form";
-import React from "react";
+import React, { useEffect } from "react";
 import { z } from "zod";
-import { Form, useNavigation, useSubmit } from "react-router-dom";
+import {
+  Form,
+  useActionData,
+  useNavigation,
+  useSubmit,
+} from "react-router-dom";
+import { toast } from "react-toastify";
 const validationSchema = z.object({
   email: z.string().email("Invalid email"),
   password: z.string().min(6, "Password must be at least 6 characters"),
 });
 const LoginForm = () => {
   const submit = useSubmit();
+  const actionData = useActionData();
   const navigation = useNavigation();
   const isSubmitting = navigation.state === "submitting";
   const form = useForm({
@@ -30,7 +37,15 @@ const LoginForm = () => {
     },
     validate: zodResolver(validationSchema),
   });
-
+  useEffect(() => {
+    if (actionData?.error) {
+      toast.error(actionData?.msg);
+      form.setErrors({
+        email: actionData?.msg,
+        password: actionData?.msg,
+      });
+    }
+  }, [actionData]);
   const handleSubmit = (values) => {
     submit(values, {
       method: "post",
