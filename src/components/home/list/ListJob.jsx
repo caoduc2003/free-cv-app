@@ -1,17 +1,27 @@
 import {
   Avatar,
+  Badge,
   Card,
   Container,
+  Divider,
   Grid,
   Group,
-  Image,
   Stack,
   Text,
+  Title,
 } from "@mantine/core";
 import React, { useEffect, useState } from "react";
 import { Select } from "@mantine/core";
 import { RangeSlider } from "@mantine/core";
 import axiosInstance from "../../../utils/axios-connect";
+import {
+  IconBriefcase,
+  IconCoin,
+  IconHourglassEmpty,
+  IconHourglassFilled,
+  IconHourglassLow,
+  IconMapPin,
+} from "@tabler/icons-react";
 
 const ListJob = () => {
   const [locations, setLocations] = useState([]);
@@ -99,7 +109,6 @@ const ListJob = () => {
 
   useEffect(() => {
     let filteredData = jobs;
-    console.log(filteredData);
     if (selectLocation) {
       filteredData = filteredData.filter(
         (job) => job.location == selectLocation
@@ -137,129 +146,131 @@ const ListJob = () => {
     selectedCareer,
     sliderValue,
     sliderValueExperience,
+    jobs,
   ]);
 
   return (
-    <Container className="p-4">
-      <div>
-        <h1 className="text-green-600 font-bold">Best Job</h1>
-      </div>
-      <div>
-        <Grid>
-          <Grid.Col span={2}>
-            <Select
-              label="Career"
-              placeholder="Choose Carrer"
-              data={careerOptions}
-              value={selectedCareer}
-              onChange={handleCareerChange}
-            />
-          </Grid.Col>
-          <Grid.Col span={3}>
-            <Select
-              label="Location"
-              placeholder="Choose Location"
-              data={location}
-              value={selectLocation}
-              onChange={handleLocationChange}
-            />
-          </Grid.Col>
-          <Grid.Col span={3}>
-            <Select
-              label="Company"
-              placeholder="Choose Company"
-              data={companyOptions}
-              value={selectedCompany}
-              onChange={handleCompanyChange}
-            />
-          </Grid.Col>
-          <Grid.Col span={2}>
-            <Text size="sm" fw={500}>
-              Experience
-            </Text>
-            <RangeSlider
-              minRange={0}
-              min={0}
-              max={10}
-              step={1}
-              defaultValue={[0, 2]}
-              className="mt-3"
-              onChange={handleSliderExperienceChange}
-            />
-          </Grid.Col>
-          <Grid.Col span={2}>
-            <Text size="sm" fw={500}>
-              Salary
-            </Text>
-            <RangeSlider
-              minRange={0}
-              min={1000}
-              max={10000}
-              step={100}
-              defaultValue={[1000, 1500]}
-              className="mt-3"
-              onChange={handleSliderChange}
-            />
-          </Grid.Col>
-        </Grid>
-      </div>
+    <Container className="mt-5 container">
+      <Group>
+        <Title order={1} c={"green"}>
+          Best jobs for you
+        </Title>
+        <Divider orientation="vertical" />
+        <Text
+          variant="gradient"
+          gradient={{ from: "yellow", to: "orange", deg: 47 }}
+          fw={700}
+          fz={18}
+        >
+          Powered by Rice™️
+        </Text>
+      </Group>
+      <br />
+      <Grid>
+        <Grid.Col span={2}>
+          <Select
+            label="Career"
+            placeholder="Choose career"
+            data={careerOptions}
+            value={selectedCareer}
+            onChange={handleCareerChange}
+          />
+        </Grid.Col>
+        <Grid.Col span={3}>
+          <Select
+            label="Location"
+            placeholder="Choose work location"
+            data={location}
+            value={selectLocation}
+            onChange={handleLocationChange}
+          />
+        </Grid.Col>
+        <Grid.Col span={3}>
+          <Select
+            label="Company"
+            placeholder="Choose company"
+            data={companyOptions}
+            value={selectedCompany}
+            onChange={handleCompanyChange}
+          />
+        </Grid.Col>
+        <Grid.Col span={2}>
+          <Text size="sm" fw={500}>
+            Experience
+          </Text>
+          <RangeSlider
+            minRange={2}
+            min={0}
+            max={10}
+            step={1}
+            defaultValue={[0, 2]}
+            label={(value) => `${value} yrs`}
+            className="mt-3"
+            onChange={handleSliderExperienceChange}
+          />
+        </Grid.Col>
+        <Grid.Col span={2}>
+          <Text size="sm" fw={500}>
+            Salary
+          </Text>
+          <RangeSlider
+            minRange={500}
+            min={1000}
+            max={10000}
+            step={100}
+            defaultValue={[1000, 10000]}
+            label={(value) => `${value}$`}
+            className="mt-3"
+            onChange={handleSliderChange}
+          />
+        </Grid.Col>
+      </Grid>
 
-      <div>
-        <Grid>
-          {filterData?.map((item) => (
-            <Grid.Col key={item.id} span={4}>
-              <Card
-                shadow="sm"
-                padding="xl"
-                component="a"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                target="_blank"
-              >
-                <Group className="justify-between">
-                  <Avatar
-                    src={findIndustry(item?.industryId).image}
-                    alt="it's me"
-                  />
-                  <div className="basis-[70%]">
-                    <Text fw={500} size="xs">
-                      {item?.title}
-                    </Text>
-                    <Text mt="xs" c="dimmed" size="xs">
+      <Grid className="mt-5">
+        {filterData?.map((item) => (
+          <Grid.Col key={item.id} span={4}>
+            <Card
+              shadow="sm"
+              padding="xl"
+              component="a"
+              href={`http://localhost:6969/job/${item?.id}/details`}
+              target="_blank"
+              withBorder
+              className="cursor-pointer h-[200px] max-h-[250px]"
+            >
+              <Group className="justify-between">
+                <Avatar
+                  src={findIndustry(item?.industryId).image}
+                  alt="it's me"
+                  size={"xl"}
+                />
+                <Stack className="basis-[70%]">
+                  <Stack gap={0}>
+                    <Title order={4}>{item?.title}</Title>
+                    <Text c="dimmed" size="sm" className="truncate">
                       {findIndustry(item?.industryId).name}
                     </Text>
-                    <Group gap={"xs"} className="pt-2">
-                      <Text
-                        size="xs"
-                        className="py-1 px-1 bg-slate-300 border rounded-3"
-                      >
-                        $ {item?.salary}
-                      </Text>
-                      <Text
-                        size="xs"
-                        className="py-1 px-1 bg-slate-300 border rounded-3"
-                      >
-                        {item?.location}
-                      </Text>
-                      <Text
-                        size="xs"
-                        className="py-1 px-1 bg-slate-300 border rounded-3"
-                      >
-                        {findCareer(item?.careerId).name}
-                      </Text>
-                      <Text
-                        size="xs"
-                        className="py-1 px-1 bg-slate-300 border rounded-3"
-                      >
-                        {item?.experience} years
-                      </Text>
-                    </Group>
-                  </div>
-                </Group>
-              </Card>
-            </Grid.Col>
-          ))}
-        </Grid>
-      </div>
+                  </Stack>
+                  <Group gap={"xs"}>
+                    <Badge
+                      leftSection={<IconCoin size={14} />}
+                    >{`${item?.salary}$`}</Badge>
+                    <Badge leftSection={<IconMapPin size={14} />}>
+                      {item?.location}
+                    </Badge>
+                    <Badge leftSection={<IconBriefcase size={14} />}>
+                      {findCareer(item?.careerId).name}
+                    </Badge>
+                    <Badge leftSection={<IconHourglassLow size={14} />}>
+                      {`${item?.experience} years`}
+                    </Badge>
+                  </Group>
+                </Stack>
+              </Group>
+            </Card>
+          </Grid.Col>
+        ))}
+      </Grid>
     </Container>
   );
 };

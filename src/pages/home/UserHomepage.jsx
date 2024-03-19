@@ -1,9 +1,7 @@
-import React from "react";
 import ListJob from "../../components/home/list/ListJob";
 
-
 const UserHomepage = () => {
-  return <ListJob></ListJob>;
+  return <ListJob />;
 };
 
 export default UserHomepage;
