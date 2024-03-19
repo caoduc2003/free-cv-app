@@ -59,11 +59,11 @@ const ListJob = () => {
   const [value, setValue] = useState(null);
 
   const findIndustry = (id) => {
-    return industries?.find((industry) => industry.id === id);
+    return industries?.find((industry) => Number(industry.id) === Number(id));
   };
 
   const findCareer = (id) => {
-    return careers?.find((industry) => industry.id === id);
+    return careers?.find((industry) => Number(industry.id) === Number(id));
   };
 
   const companyOptions = industries.map((company) => ({
@@ -240,7 +240,7 @@ const ListJob = () => {
             >
               <Group className="justify-between">
                 <Avatar
-                  src={findIndustry(item?.industryId).image}
+                  src={findIndustry(item?.industryId)?.image}
                   alt="it's me"
                   size={"xl"}
                 />
@@ -248,7 +248,7 @@ const ListJob = () => {
                   <Stack gap={0}>
                     <Title order={4}>{item?.title}</Title>
                     <Text c="dimmed" size="sm" className="truncate">
-                      {findIndustry(item?.industryId).name}
+                      {findIndustry(item?.industryId)?.name}
                     </Text>
                   </Stack>
                   <Group gap={"xs"}>
@@ -259,7 +259,7 @@ const ListJob = () => {
                       {item?.location}
                     </Badge>
                     <Badge leftSection={<IconBriefcase size={14} />}>
-                      {findCareer(item?.careerId).name}
+                      {findCareer(item?.careerId)?.name}
                     </Badge>
                     <Badge leftSection={<IconHourglassLow size={14} />}>
                       {`${item?.experience} years`}

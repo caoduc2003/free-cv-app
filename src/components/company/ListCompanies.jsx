@@ -1,6 +1,6 @@
-import { Container, Grid } from "@mantine/core";
+import { Container, Grid, Stack } from "@mantine/core";
 import { Card, Image, Text } from "@mantine/core";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axiosInstance from "../../utils/axios-connect";
 
@@ -19,27 +19,40 @@ const ListCompanies = () => {
   return (
     <Container size="xl">
       <div className="my-5">
-        <h1 className="text-2xl font-semibold text-center">
-          DANH SÁCH CÁC CÔNG TY NỔI BẬT
-        </h1>
+        <Text
+          order={2}
+          className="text-center text-3xl"
+          fw={800}
+          variant="gradient"
+          gradient={{ from: "orange", to: "yellow", deg: 142 }}
+        >
+          TOP COMPANIES
+        </Text>
 
         <Grid className="my-6">
           {companies.map((item) => (
             <Grid.Col span={4} key={item.id}>
-              <Card shadow="sm" padding="lg">
-                <Card.Section>
-                  <Image src={item.image} h={160} alt="No way!" />
-                </Card.Section>
-
-                <Text fw={500} size="lg" mt="md">
-                  <Link to={`/company/${item.id}/details`}>{item.name}</Link>
-                </Text>
-
-                <Text mt="xs" c="dimmed" size="sm">
-                  Please click anywhere on this card to claim your reward, this
-                  is not a fraud, trust us
-                </Text>
-              </Card>
+              <Link to={`/company/${item.id}/details`}>
+                <Card
+                  shadow="sm"
+                  padding="lg"
+                  withBorder
+                  radius="md"
+                  className="h-full"
+                >
+                  <Card.Section>
+                    <Image src={item.image} h={200} />
+                  </Card.Section>
+                  <Stack gap={0}>
+                    <Text fw={500} size="lg" mt="md">
+                      {item.name}
+                    </Text>
+                    <Text mt="xs" c="dimmed" size="sm">
+                      {item?.description}
+                    </Text>
+                  </Stack>
+                </Card>
+              </Link>
             </Grid.Col>
           ))}
         </Grid>
