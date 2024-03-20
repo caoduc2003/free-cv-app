@@ -8,6 +8,7 @@ import {
   Title,
 } from "@mantine/core";
 import { IconExternalLink } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 const CompanyInfo = ({ company }) => {
   console.log(company);
@@ -33,12 +34,15 @@ const CompanyInfo = ({ company }) => {
               <Text>{company?.location}</Text>
             </Group>
           </Stack>
-          <Button
-            rightSection={<IconExternalLink stroke={1.5} />}
-            variant="light"
-          >
-            Company details
-          </Button>
+          <Link to={`/company/${company?.id}/details`} className="w-full">
+            <Button
+              rightSection={<IconExternalLink stroke={1.5} />}
+              variant="light"
+              fullWidth
+            >
+              Company details
+            </Button>
+          </Link>
         </Stack>
       </Paper>
     </>
