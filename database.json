@@ -131,7 +131,6 @@
       "gender": "Male"
     }
   ],
-
   "jobs": [
     {
       "id": 1,
@@ -140,7 +139,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 6,
-      "gender": "Female",
       "location": "Suite 72",
       "careerId": 8,
       "salary": 7645,
@@ -154,7 +152,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 6,
-      "gender": "Female",
       "location": "PO Box 98645",
       "careerId": 7,
       "salary": 2193,
@@ -168,7 +165,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 10,
-      "gender": "Female",
       "location": "Suite 97",
       "careerId": 5,
       "salary": 8733,
@@ -182,7 +178,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 1,
-      "gender": "Bigender",
       "location": "Suite 91",
       "careerId": 6,
       "salary": 7006,
@@ -196,7 +191,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 2,
-      "gender": "Female",
       "location": "3rd Floor",
       "careerId": 5,
       "salary": 7437,
@@ -210,7 +204,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 1,
-      "gender": "Male",
       "location": "2nd Floor",
       "careerId": 8,
       "salary": 3580,
@@ -224,7 +217,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 8,
-      "gender": "Male",
       "location": "Room 884",
       "careerId": 10,
       "salary": 5168,
@@ -238,7 +230,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 1,
-      "gender": "Female",
       "location": "Apt 1199",
       "careerId": 10,
       "salary": 4567,
@@ -252,7 +243,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 2,
-      "gender": "Female",
       "location": "Apt 136",
       "careerId": 4,
       "salary": 8713,
@@ -266,7 +256,6 @@
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 7,
-      "gender": "Female",
       "location": "Apt 249",
       "careerId": 6,
       "salary": 5925,
@@ -274,7 +263,6 @@
       "dueDate": "3/22/2024"
     }
   ],
-
   "careers": [
     {
       "id": 1,
@@ -317,7 +305,6 @@
       "name": "n/a 1"
     }
   ],
-
   "industries": [
     {
       "id": 1,
@@ -328,8 +315,9 @@
       "logo": "https://cdn-new.topcv.vn/unsafe/140x/https://static.topcv.vn/company_logos/cong-ty-co-phan-vien-thong-fpt-5d5f5980e317c.jpg",
       "description": "FPT Telecom is a leading telecommunications company in Vietnam.",
       "locationUrl": "https://maps.google.com/?q=Tầng 2, tòa nhà FPT, Phố Duy Tân, Cầu Giấy, Hà Nội",
-      "totalFollowers": 10000,
-      "website": "https://fptjobs.com"
+      "totalFollowers": 10004,
+      "website": "https://fptjobs.com",
+      "followers": []
     },
     {
       "id": 2,
@@ -340,7 +328,7 @@
       "logo": "https://example.com/twimbo_logo.png",
       "description": "Twimbo specializes in social media management solutions.",
       "locationUrl": "https://maps.google.com/?q=Room 1706",
-      "totalFollowers": 5000,
+      "totalFollowers": 5002,
       "website": "https://twimbo.com"
     },
     {
@@ -440,7 +428,6 @@
       "website": "https://bubblebox.com"
     }
   ],
-
   "resumes": [
     {
       "id": 1,
@@ -503,7 +490,6 @@
       "statusId": 3
     }
   ],
-
   "savedJobs": [
     {
       "jobId": 5,
@@ -556,7 +542,6 @@
       "createdAt": "3/18/2024"
     }
   ],
-
   "jobAplications": [
     {
       "jobId": 3,
@@ -619,7 +604,6 @@
       "statusId": 1
     }
   ],
-
   "applicationStatus": [
     {
       "id": 1,
