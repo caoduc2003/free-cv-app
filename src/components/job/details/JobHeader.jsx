@@ -5,8 +5,20 @@ import {
   IconHourglassEmpty,
   IconMapPin,
 } from "@tabler/icons-react";
+import { useState } from "react";
+import ModalApply from "./ModalApply";
 
 const JobHeader = ({ job }) => {
+
+  const [open, setOpen] = useState(false);
+  const hanleOpen = () => {
+    setOpen(true);
+  }
+
+  const hanleClose = () => {
+    setOpen(false);
+  }
+
   return (
     <>
       <Paper withBorder radius="md" p={"xl"} shadow="md">
@@ -40,6 +52,7 @@ const JobHeader = ({ job }) => {
             variant="gradient"
             radius={"xl"}
             className="grow"
+            onClick={hanleOpen}
           >
             Apply now
           </Button>
@@ -53,6 +66,8 @@ const JobHeader = ({ job }) => {
             Save this job
           </Button>
         </Group>
+
+        <ModalApply open={open} onClose={hanleClose}/>
       </Paper>
     </>
   );

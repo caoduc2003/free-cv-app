@@ -4,6 +4,9 @@ import JobDescription from "../../../components/job/details/JobDescription";
 import CompanyInfo from "../../../components/job/details/CompanyInfo";
 import { redirect, useLoaderData } from "react-router-dom";
 import axiosInstance from "../../../utils/axios-connect";
+import JobComment from "../../../components/job/details/JobComment";
+import ListJobFeedback from "../../../components/job/details/ListJobFeedback";
+import Feedback from "../../feedback/Feedback";
 const JobDetails = () => {
   const loaderData = useLoaderData();
   console.log(loaderData);
@@ -15,6 +18,8 @@ const JobDetails = () => {
             <Stack>
               <JobHeader job={loaderData?.jobEntity[0]} />
               <JobDescription job={loaderData?.jobEntity[0]} />
+              <Feedback job={loaderData?.jobEntity[0]} />
+              <ListJobFeedback job={loaderData?.jobEntity[0]} />
             </Stack>
           </Grid.Col>
           <Grid.Col span={3}>
