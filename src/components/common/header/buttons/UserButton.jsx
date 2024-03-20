@@ -1,8 +1,11 @@
 import { Avatar, Group, Menu, Text, UnstyledButton } from "@mantine/core";
 import { IconLogout, IconUserCircle } from "@tabler/icons-react";
-import { useSubmit } from "react-router-dom";
+import { useNavigate, useSubmit } from "react-router-dom";
 
 const UserButton = ({ user }) => {
+
+  const navigate = useNavigate();
+
   const submit = useSubmit();
   const handleLogout = () => {
     submit(null, {
@@ -22,7 +25,7 @@ const UserButton = ({ user }) => {
           </UnstyledButton>
         </Menu.Target>
         <Menu.Dropdown>
-          <Menu.Item leftSection={<IconUserCircle size={14} />}>
+          <Menu.Item leftSection={<IconUserCircle size={14} />} onClick={() => navigate("/profile")}>
             Profile
           </Menu.Item>
           <Menu.Item

@@ -8,6 +8,8 @@ import JobDetails, { JobDetailsLoader } from "./pages/job/details/JobDetails";
 import SearchResult from "./pages/search/SearchResult";
 import CompanyDetails from "./pages/company/CompanyDetails";
 import ListCompanies from "./components/company/ListCompanies";
+import { FeedbackAction } from "./pages/feedback/Feedback";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +38,7 @@ const router = createBrowserRouter([
         path: "job/:id/details",
         element: <JobDetails />,
         loader: JobDetailsLoader,
+        action: <FeedbackAction/>
       },
       {
         path: "company",

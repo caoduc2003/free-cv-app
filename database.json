@@ -11,7 +11,8 @@
       "username": "skoppke0",
       "phoneNumber": "484-356-4795",
       "avatar": "https://robohash.org/iddolorumvoluptatem.png?size=50x50&set=set1",
-      "gender": "Male"
+      "gender": "Male",
+      "careerId": 5
     },
     {
       "id": 2,
@@ -140,7 +141,7 @@
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 6,
       "location": "Suite 72",
-      "careerId": 8,
+      "careerId": 5,
       "salary": 7645,
       "experience": 4,
       "dueDate": "3/20/2024"
@@ -153,7 +154,7 @@
       "benefits": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
       "industryId": 6,
       "location": "PO Box 98645",
-      "careerId": 7,
+      "careerId": 5,
       "salary": 2193,
       "experience": 4,
       "dueDate": "3/29/2024"
@@ -644,6 +645,86 @@
     {
       "id": 10,
       "name": "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices"
+    }
+  ],
+
+  "feedbacks": [
+    {
+      "jobId": 1,
+      "userId": 1,
+      "createdAt": "3/18/2024",
+      "star": 4,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo ac arcu ultrices luctus. Vestibulum non vestibulum enim, vitae gravida libero. Nam nec magna a metus vehicula eleifend."
+    },
+    {
+      "jobId": 1,
+      "userId": 2,
+      "createdAt": "3/18/2024",
+      "star": 4,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo ac arcu ultrices luctus. Vestibulum non vestibulum enim, vitae gravida libero. Nam nec magna a metus vehicula eleifend."
+    },
+    {
+      "jobId": 2,
+      "userId": 2,
+      "createdAt": "3/18/2024",
+      "star": 3,
+      "content": "Sed blandit nulla nec justo vulputate, non consequat felis facilisis. Quisque vulputate purus nec libero consequat, quis lacinia odio rhoncus. Duis viverra libero id orci fringilla, vel congue mi aliquet."
+    },
+    {
+      "jobId": 3,
+      "userId": 3,
+      "createdAt": "3/18/2024",
+      "star": 5,
+      "content": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+    },
+    {
+      "jobId": 4,
+      "userId": 4,
+      "createdAt": "3/18/2024",
+      "star": 2,
+      "content": "Nulla eget ante sollicitudin, gravida nulla eget, varius metus. Sed in justo nec libero vulputate laoreet. Phasellus eget aliquam ligula."
+    },
+    {
+      "jobId": 5,
+      "userId": 5,
+      "createdAt": "3/18/2024",
+      "star": 4,
+      "content": "Cras malesuada, libero at ultricies bibendum, nulla mi scelerisque mauris, ut mattis neque magna in ligula. Maecenas in nulla ut arcu vulputate euismod."
+    },
+    {
+      "jobId": 6,
+      "userId": 6,
+      "createdAt": "3/18/2024",
+      "star": 1,
+      "content": "Phasellus id diam non lorem sollicitudin vulputate. Proin eget tortor scelerisque, vehicula enim eu, pretium velit. Nulla quis purus nec dui fringilla finibus id at lorem."
+    },
+    {
+      "jobId": 7,
+      "userId": 7,
+      "createdAt": "3/18/2024",
+      "star": 4,
+      "content": "Donec et mauris accumsan, lobortis sapien sit amet, dignissim risus. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "jobId": 8,
+      "userId": 8,
+      "createdAt": "3/18/2024",
+      "star": 3,
+      "content": "Duis id odio vitae eros fermentum varius. Nulla facilisi. Morbi at vehicula sapien. Maecenas dignissim, ipsum eget fermentum consequat, quam lectus laoreet sem, quis consequat sem est vel nulla."
+    },
+    {
+      "jobId": 9,
+      "userId": 9,
+      "createdAt": "3/18/2024",
+      "star": 5,
+      "content": "Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam volutpat nulla at ipsum auctor, vitae iaculis est malesuada. Mauris tristique, lacus a tincidunt pharetra, dui lacus vestibulum metus, nec accumsan tortor nisi nec velit."
+    },
+    {
+      "jobId": 10,
+      "userId": 10,
+      "createdAt": "3/18/2024",
+      "star": 2,
+      "content": "Fusce at placerat lorem. Curabitur eu magna arcu. Integer gravida magna sit amet mi fermentum, eu ultrices mauris venenatis."
     }
   ]
 }

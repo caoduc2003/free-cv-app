@@ -22,6 +22,8 @@ import {
   IconHourglassLow,
   IconMapPin,
 } from "@tabler/icons-react";
+import ListSuggestJob from "./ListSuggestJob";
+import { useSelector } from "react-redux";
 
 const ListJob = () => {
   const [locations, setLocations] = useState([]);
@@ -40,23 +42,11 @@ const ListJob = () => {
     setCareers(listCareer.data);
     const listJobs = await axiosInstance.get("/jobs");
     setJobs(listJobs.data);
-
-    const data = jobs
-      .filter(
-        (job) => job.salary >= sliderValue[0] && job.salary <= sliderValue[1]
-      )
-      .filter(
-        (job) =>
-          job.experience >= sliderValueExperience[0] &&
-          job.experience <= sliderValueExperience[1]
-      );
-    setFilterData(data);
+    setFilterData(listJobs.data);
   };
   const companyNames = industries?.map((company) => company.name);
   const location = industries?.map((company) => company.location);
   const career = careers?.map((company) => company.name);
-
-  const [value, setValue] = useState(null);
 
   const findIndustry = (id) => {
     return industries?.find((industry) => Number(industry.id) === Number(id));
@@ -95,13 +85,13 @@ const ListJob = () => {
     setSelectLocation(value);
   };
 
-  const [sliderValue, setSliderValue] = useState([1000, 1500]);
+  const [sliderValue, setSliderValue] = useState([1000, 10000]);
 
   const handleSliderChange = (values) => {
     setSliderValue(values);
   };
 
-  const [sliderValueExperience, setSliderValueExperience] = useState([0, 2]);
+  const [sliderValueExperience, setSliderValueExperience] = useState([0, 10]);
 
   const handleSliderExperienceChange = (values) => {
     setSliderValueExperience(values);
@@ -109,6 +99,7 @@ const ListJob = () => {
 
   useEffect(() => {
     let filteredData = jobs;
+    console.log(filteredData);
     if (selectLocation) {
       filteredData = filteredData.filter(
         (job) => job.location == selectLocation
@@ -149,8 +140,11 @@ const ListJob = () => {
     jobs,
   ]);
 
+
+
   return (
     <Container className="mt-5 container">
+      <ListSuggestJob></ListSuggestJob>
       <Group>
         <Title order={1} c={"green"}>
           Best jobs for you
@@ -199,11 +193,11 @@ const ListJob = () => {
             Experience
           </Text>
           <RangeSlider
-            minRange={2}
+            minRange={1}
             min={0}
             max={10}
             step={1}
-            defaultValue={[0, 2]}
+            defaultValue={[0, 10]}
             label={(value) => `${value} yrs`}
             className="mt-3"
             onChange={handleSliderExperienceChange}
@@ -234,7 +228,6 @@ const ListJob = () => {
               padding="xl"
               component="a"
               href={`http://localhost:6969/job/${item?.id}/details`}
-              target="_blank"
               withBorder
               className="cursor-pointer h-[200px] max-h-[250px]"
             >
