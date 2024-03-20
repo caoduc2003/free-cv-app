@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "firstName": "Salim",
       "lastName": "Koppke",
       "email": "test@gmail.com",
@@ -14,7 +14,7 @@
       "gender": "Male"
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "Paloma",
       "lastName": "Halfacree",
       "email": "phalfacree1@storify.com",
@@ -27,7 +27,7 @@
       "gender": "Female"
     },
     {
-      "id": 3,
+      "id": "3",
       "firstName": "Antonia",
       "lastName": "Bagnal",
       "email": "abagnal2@ca.gov",
@@ -40,7 +40,7 @@
       "gender": "Female"
     },
     {
-      "id": 4,
+      "id": "4",
       "firstName": "Bastian",
       "lastName": "Vaudre",
       "email": "bvaudre3@hc360.com",
@@ -53,7 +53,7 @@
       "gender": "Male"
     },
     {
-      "id": 5,
+      "id": "5",
       "firstName": "Patrizio",
       "lastName": "Pharo",
       "email": "ppharo4@barnesandnoble.com",
@@ -66,7 +66,7 @@
       "gender": "Male"
     },
     {
-      "id": 6,
+      "id": "6",
       "firstName": "Gregory",
       "lastName": "Wermerling",
       "email": "gwermerling5@netlog.com",
@@ -79,7 +79,7 @@
       "gender": "Male"
     },
     {
-      "id": 7,
+      "id": "7",
       "firstName": "Ring",
       "lastName": "Eriksson",
       "email": "reriksson6@upenn.edu",
@@ -92,7 +92,7 @@
       "gender": "Male"
     },
     {
-      "id": 8,
+      "id": "8",
       "firstName": "Karola",
       "lastName": "Cromley",
       "email": "kcromley7@va.gov",
@@ -105,7 +105,7 @@
       "gender": "Female"
     },
     {
-      "id": 9,
+      "id": "9",
       "firstName": "Theodoric",
       "lastName": "Mahood",
       "email": "tmahood8@gmpg.org",
@@ -118,7 +118,7 @@
       "gender": "Male"
     },
     {
-      "id": 10,
+      "id": "10",
       "firstName": "Antoni",
       "lastName": "Vine",
       "email": "avine9@ox.ac.uk",
@@ -131,10 +131,9 @@
       "gender": "Male"
     }
   ],
-
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Assistant Media Planner",
       "descriptions": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -148,7 +147,7 @@
       "dueDate": "3/20/2024"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Structural Engineer",
       "descriptions": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -162,7 +161,7 @@
       "dueDate": "3/29/2024"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Professor",
       "descriptions": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -176,7 +175,7 @@
       "dueDate": "3/5/2024"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "VP Quality Control",
       "descriptions": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -190,7 +189,7 @@
       "dueDate": "3/21/2024"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "VP Product Management",
       "descriptions": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -204,7 +203,7 @@
       "dueDate": "3/27/2024"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Senior Developer",
       "descriptions": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -218,7 +217,7 @@
       "dueDate": "3/22/2024"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Account Executive",
       "descriptions": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -232,7 +231,7 @@
       "dueDate": "3/7/2024"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Quality Control Specialist",
       "descriptions": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -246,7 +245,7 @@
       "dueDate": "3/26/2024"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "VP Accounting",
       "descriptions": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -260,7 +259,7 @@
       "dueDate": "3/19/2024"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Mechanical Systems Engineer",
       "descriptions": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
       "requirements": "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -274,53 +273,51 @@
       "dueDate": "3/22/2024"
     }
   ],
-
   "careers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Public Utilities 1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Finance"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Capital Goods"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "IT"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "mock 1"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Health Care"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Consumer Services"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Public Utilities"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Health Care 3"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "n/a 1"
     }
   ],
-
   "industries": [
     {
-      "id": 1,
+      "id": "1",
       "name": "FPT Telecom",
       "location": "Tầng 2, tòa nhà FPT, Phố Duy Tân, Cầu Giấy, Hà Nội",
       "totalEmployees": 5000,
@@ -332,7 +329,7 @@
       "website": "https://fptjobs.com"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Twimbo",
       "location": "Room 1706",
       "totalEmployees": 770,
@@ -344,7 +341,7 @@
       "website": "https://twimbo.com"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Youbridge",
       "location": "Suite 27",
       "totalEmployees": 58,
@@ -356,7 +353,7 @@
       "website": "https://youbridge.com"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Realcube",
       "location": "Suite 89",
       "totalEmployees": 989,
@@ -368,7 +365,7 @@
       "website": "https://realcube.com"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Zoomzone",
       "location": "3rd Floor",
       "totalEmployees": 98,
@@ -380,7 +377,7 @@
       "website": "https://zoomzone.com"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Kwinu",
       "location": "Apt 1917",
       "totalEmployees": 915,
@@ -392,7 +389,7 @@
       "website": "https://kwinu.com"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Skinder",
       "location": "18th Floor",
       "totalEmployees": 528,
@@ -404,7 +401,7 @@
       "website": "https://skinder.com"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Trudoo",
       "location": "12th Floor",
       "totalEmployees": 715,
@@ -416,7 +413,7 @@
       "website": "https://trudoo.com"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Jetwire",
       "location": "Suite 3",
       "totalEmployees": 428,
@@ -428,7 +425,7 @@
       "website": "https://jetwire.com"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Bubblebox",
       "location": "14th Floor",
       "totalEmployees": 379,
@@ -440,225 +437,241 @@
       "website": "https://bubblebox.com"
     }
   ],
-
   "resumes": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 5,
       "createdAt": "3/30/2024",
       "statusId": 3
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 5,
       "createdAt": "3/21/2024",
       "statusId": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 4,
       "createdAt": "3/20/2024",
       "statusId": 4
     },
     {
-      "id": 4,
+      "id": "4",
       "userId": 5,
       "createdAt": "3/19/2024",
       "statusId": 7
     },
     {
-      "id": 5,
+      "id": "5",
       "userId": 1,
       "createdAt": "3/18/2024",
       "statusId": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "userId": 6,
       "createdAt": "3/26/2024",
       "statusId": 10
     },
     {
-      "id": 7,
+      "id": "7",
       "userId": 4,
       "createdAt": "3/27/2024",
       "statusId": 9
     },
     {
-      "id": 8,
+      "id": "8",
       "userId": 4,
       "createdAt": "3/19/2024",
       "statusId": 7
     },
     {
-      "id": 9,
+      "id": "9",
       "userId": 10,
       "createdAt": "3/22/2024",
       "statusId": 10
     },
     {
-      "id": 10,
+      "id": "10",
       "userId": 8,
       "createdAt": "3/26/2024",
       "statusId": 3
     }
   ],
-
   "savedJobs": [
     {
       "jobId": 5,
       "userId": 2,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "a76f"
     },
     {
       "jobId": 2,
       "userId": 3,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "1102"
     },
     {
       "jobId": 1,
       "userId": 9,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "e847"
     },
     {
       "jobId": 7,
       "userId": 5,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "d101"
     },
     {
       "jobId": 10,
       "userId": 5,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "039c"
     },
     {
       "jobId": 8,
       "userId": 2,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "679e"
     },
     {
       "jobId": 6,
       "userId": 2,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "c17f"
     },
     {
       "jobId": 4,
       "userId": 3,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "2acb"
     },
     {
       "jobId": 5,
       "userId": 1,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "a387"
     },
     {
       "jobId": 2,
       "userId": 7,
-      "createdAt": "3/18/2024"
+      "createdAt": "3/18/2024",
+      "id": "9249"
     }
   ],
-
   "jobAplications": [
     {
       "jobId": 3,
       "userId": 6,
       "createdAt": "3/18/2024",
-      "statusId": 5
+      "statusId": 5,
+      "id": "77c3"
     },
     {
       "jobId": 7,
       "userId": 4,
       "createdAt": "3/18/2024",
-      "statusId": 2
+      "statusId": 2,
+      "id": "3862"
     },
     {
       "jobId": 7,
       "userId": 4,
       "createdAt": "3/18/2024",
-      "statusId": 4
+      "statusId": 4,
+      "id": "62d4"
     },
     {
       "jobId": 2,
       "userId": 3,
       "createdAt": "3/18/2024",
-      "statusId": 9
+      "statusId": 9,
+      "id": "4516"
     },
     {
       "jobId": 1,
       "userId": 3,
       "createdAt": "3/18/2024",
-      "statusId": 1
+      "statusId": 1,
+      "id": "0c5a"
     },
     {
       "jobId": 6,
       "userId": 3,
       "createdAt": "3/18/2024",
-      "statusId": 10
+      "statusId": 10,
+      "id": "3ce0"
     },
     {
       "jobId": 3,
       "userId": 7,
       "createdAt": "3/18/2024",
-      "statusId": 3
+      "statusId": 3,
+      "id": "dca6"
     },
     {
       "jobId": 2,
       "userId": 2,
       "createdAt": "3/18/2024",
-      "statusId": 7
+      "statusId": 7,
+      "id": "6202"
     },
     {
       "jobId": 7,
       "userId": 6,
       "createdAt": "3/18/2024",
-      "statusId": 3
+      "statusId": 3,
+      "id": "7798"
     },
     {
       "jobId": 3,
       "userId": 10,
       "createdAt": "3/18/2024",
-      "statusId": 1
+      "statusId": 1,
+      "id": "a3ec"
     }
   ],
-
   "applicationStatus": [
     {
-      "id": 1,
+      "id": "1",
       "name": "non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "quis orci eget orci vehicula condimentum curabitur in libero ut"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "integer ac neque duis bibendum morbi non quam nec dui"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices"
     }
   ]

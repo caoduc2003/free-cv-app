@@ -2,7 +2,6 @@ import { Button, Divider, Group, Paper, Text, Title } from "@mantine/core";
 import { IconHeart } from "@tabler/icons-react";
 
 const JobDescription = ({ job }) => {
-  console.log(job);
   return (
     <>
       <Paper withBorder radius="md" p={"xl"} shadow="md">

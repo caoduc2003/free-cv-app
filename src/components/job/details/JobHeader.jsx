@@ -1,12 +1,13 @@
 import { Avatar, Button, Group, Paper, Text, Title } from "@mantine/core";
 import {
   IconBusinessplan,
+  IconCheck,
   IconHeart,
   IconHourglassEmpty,
   IconMapPin,
 } from "@tabler/icons-react";
 
-const JobHeader = ({ job }) => {
+const JobHeader = ({ job, saved, handleSaveJob }) => {
   return (
     <>
       <Paper withBorder radius="md" p={"xl"} shadow="md">
@@ -47,10 +48,11 @@ const JobHeader = ({ job }) => {
             variant="outline"
             color="orange"
             radius={"xl"}
-            leftSection={<IconHeart />}
+            leftSection={saved ? <IconCheck /> : <IconHeart />}
             className="grow-0"
+            onClick={handleSaveJob}
           >
-            Save this job
+            {saved ? "Saved" : "Save this job"}
           </Button>
         </Group>
       </Paper>

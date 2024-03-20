@@ -53,7 +53,6 @@ export default function Header() {
         const industry = res2.find(
           (i) => Number(i.id) === Number(j.industryId)
         );
-        console.log(industry);
         return { ...j, industryName: industry.name };
       });
 
