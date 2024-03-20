@@ -1,6 +1,7 @@
 import { Avatar, Button, Group, Paper, Text, Title } from "@mantine/core";
 import {
   IconBusinessplan,
+  IconCheck,
   IconHeart,
   IconHourglassEmpty,
   IconMapPin,
@@ -8,17 +9,7 @@ import {
 import { useState } from "react";
 import ModalApply from "./ModalApply";
 
-const JobHeader = ({ job }) => {
-
-  const [open, setOpen] = useState(false);
-  const hanleOpen = () => {
-    setOpen(true);
-  }
-
-  const hanleClose = () => {
-    setOpen(false);
-  }
-
+const JobHeader = ({ job, saved, handleSaveJob }) => {
   return (
     <>
       <Paper withBorder radius="md" p={"xl"} shadow="md">
@@ -60,10 +51,11 @@ const JobHeader = ({ job }) => {
             variant="outline"
             color="orange"
             radius={"xl"}
-            leftSection={<IconHeart />}
+            leftSection={saved ? <IconCheck /> : <IconHeart />}
             className="grow-0"
+            onClick={handleSaveJob}
           >
-            Save this job
+            {saved ? "Saved" : "Save this job"}
           </Button>
         </Group>
 

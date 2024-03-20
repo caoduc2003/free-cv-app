@@ -4,7 +4,10 @@ import Login, { LoginAction } from "./pages/auth/Login";
 import { logout } from "./utils/logout";
 import GuestHomepage from "./pages/home/GuestHomepage";
 import UserHomepage from "./pages/home/UserHomepage";
-import JobDetails, { JobDetailsLoader } from "./pages/job/details/JobDetails";
+import JobDetails, {
+  JobDetailsAction,
+  JobDetailsLoader,
+} from "./pages/job/details/JobDetails";
 import SearchResult from "./pages/search/SearchResult";
 import CompanyDetails from "./pages/company/CompanyDetails";
 import ListCompanies from "./components/company/ListCompanies";
@@ -38,7 +41,7 @@ const router = createBrowserRouter([
         path: "job/:id/details",
         element: <JobDetails />,
         loader: JobDetailsLoader,
-        action: <FeedbackAction/>
+        action: JobDetailsAction,
       },
       {
         path: "company",

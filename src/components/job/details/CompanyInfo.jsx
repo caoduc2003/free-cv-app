@@ -11,7 +11,6 @@ import { IconExternalLink } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 
 const CompanyInfo = ({ company }) => {
-  console.log(company);
   return (
     <>
       <Paper className="max-w-80" withBorder radius="md" p={"lg"} shadow="md">
